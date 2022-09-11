@@ -1,0 +1,210 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    padding-top: 15px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.nav-logo {
+    background-image: url('../../assets/logo.png');
+    background-size: 200px 50px;
+    width: 200px;
+    height: 50px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    color: #E0FBFC;
+    
+}
+
+.nav-item{
+    position: relative;
+    left: 20%;
+}
+
+.items li{
+    list-style: none;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.nav-sign ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    left: 30px;
+}
+
+
+.items li{
+    background-image: linear-gradient(
+      to right,
+      #EE6C4D,
+      #EE6C4D 50%,
+      #E0FBFC 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: flex;
+    position: relative;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .items li:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .items li:hover {
+   background-position: 0;
+  }
+  
+  .items li:hover::before{
+    width: 100%;
+  }
+  
+
+
+.signs{
+    text-align: center;
+    color: #E0FBFC;
+    position: relative;
+    /*background: #e4f0f7;
+    */border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 40px;
+    height: 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #EE6C4D;
+    border-top: 1px solid #5d81b8;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+  .tooltip {
+    position: absolute;
+    width: 100px;
+    top: 0;
+    font-size: 10px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+    -webkit-transition: all .3s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+    -moz-transition: all .3s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+    -ms-transition: all .3s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+    -o-transition: all .3s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  .tooltip::before {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: translate(50%) rotate(45deg);
+    -moz-transform: translate(50%) rotate(45deg);
+    -ms-transform: translate(50%) rotate(45deg);
+    -o-transform: translate(50%) rotate(45deg);
+    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+  .signs:hover .tooltip {
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+.signs:hover{
+    border: none;
+}
+  .signs:hover span,
+.signs:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up:hover,
+.sign-up:hover .tooltip,
+.sign-up:hover .tooltip::before {
+  background: #5d81b8;
+  color: #ffffff;
+}
+
+.sign-in:hover,
+.sign-in:hover .tooltip,
+.sign-in:hover .tooltip::before {
+  background: #EE6C4D;
+  color: #ffffff;
+}
+
+
+nav.sticky {
+    background-color: #293241;
+    padding-top: 0px;
+    
+}
+.logo-background{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 18%;
+    padding-right: 30px;
+}
+nav.sticky .logo-background{
+    background-color: #0b1422;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
