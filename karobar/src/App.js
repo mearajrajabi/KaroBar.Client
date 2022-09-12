@@ -1,10 +1,8 @@
 import './App.css';
-import Footer from './Components/Common/Footer';
 
 import Header from './Components/Common/Header';
 import Navbar from './Components/Common/Navbar';
 import Footer from './Components/Common/Footer';
-
 
 function App() {
   return (
@@ -12,8 +10,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-
-
 
 
       <div style={{ paddingTop: '60px' }}>
@@ -120,8 +116,8 @@ function App() {
       </div>
 
       <Footer />
-
     </div>
+
 
 
 
