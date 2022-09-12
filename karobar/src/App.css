@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  font-family: Vazirmatn, sans-serif;
+}
+
+.App button{
+  font-family: Vazirmatn , sans-serif;
 }
 
 .App-logo {
