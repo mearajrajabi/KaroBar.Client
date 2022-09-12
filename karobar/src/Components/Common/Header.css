@@ -12,8 +12,8 @@
 }
 
 .titr{
-    position: relative;
-    top: 200px;
+    margin-top: 200px;
+    margin-bottom: -100px;
     color: #e6f8f8;
     font-weight: bold;
     font-size: 20px;
