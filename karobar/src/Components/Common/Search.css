@@ -98,7 +98,7 @@
     margin: 0 10px 0 5px;
     border: unset;
     background-color: #ee6d4de8;
-    box-shadow: #293241 0 0px 5px 0.5px;
+    box-shadow: #434f64 0 0px 5px 0.5px;
     width: 100px;
     height: 54px;
     text-align: center;
@@ -113,5 +113,5 @@
 }
 .btn-search:hover{
     background-color: #ee6c4d;
-    box-shadow: #e0fbfc 0 0px 5px 0.5px;
+    box-shadow: #b1c6da 0 0px 3px 0.5px;
 }

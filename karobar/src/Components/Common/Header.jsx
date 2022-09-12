@@ -3,6 +3,8 @@ import './Header.css';
 import Search from './Search';
 
 const Header = () =>{
+
+
     return(
         <div id='header'>
 
@@ -12,9 +14,9 @@ const Header = () =>{
 
             <Search />
 
-            <div style={{position: 'relative' ,top: '3000px'}}>d</div>
+            </div>
 
-        </div>
+            
     );
 }
 
