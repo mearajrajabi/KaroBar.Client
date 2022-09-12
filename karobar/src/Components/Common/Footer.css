@@ -1,0 +1,102 @@
+.main-Footer {
+    background-color: #293241;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-Footer-Section {
+    margin: 0;
+}
+
+.Footer-SubIcon-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer-BoxIcon img {
+    width: 65px;
+}
+
+.footer-BoxIcon {
+    display: flex;
+    align-items: center;
+    margin: 1rem 1.5rem;
+}
+
+.footer-BoxIcon .Title-IconSub-footer {
+    margin-right: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.Footer-Info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.1rem 0;
+}
+
+h2.Title-menu-Item {
+    font-size: 19px;
+    color: #98C1D9;
+    margin-bottom: 1rem;
+}
+
+.footer-menu-Item a,
+.footer-menu-Item li {
+    color: #E0FBFC;
+    margin-bottom: 13px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-menu-Item a:hover,
+.footer-menu-Item li:hover {
+    color: #EE6C4D;
+    transition: all .5s;
+}
+
+.Text-menu-Item {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer-License-symbol img {
+    width: 130px;
+}
+
+.border-bottom {
+    border-bottom: 2.5px dashed white;
+}
+
+.border-top {
+    border-top: 2.5px dashed darkgray;
+}
+
+.margin-bottom {
+    margin-bottom: 12px;
+}
+
+.Title-Section {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-navBottom-law {
+    margin: 1rem 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.media-icon img {
+    width: 55px;
+    margin: 0 .8rem;
+}
+
+.footer-menu-Item .Logo {
+    width: 180px;
+    margin-bottom: -1rem;
+}
