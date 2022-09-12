@@ -3,7 +3,7 @@ import Footer from './Components/Common/Footer';
 
 import Header from './Components/Common/Header';
 import Navbar from './Components/Common/Navbar';
-import Footer from './Components/Common/Navbar';
+import Footer from './Components/Common/Footer';
 
 
 function App() {
