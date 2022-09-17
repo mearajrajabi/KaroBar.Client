@@ -1,4 +1,6 @@
 import './Navbar.css';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     
     window.addEventListener('scroll', ()=>{
@@ -28,14 +30,19 @@ const Navbar = () => {
             {/*----------- SIGNS ------- */}
             <div className="nav-sign">
                 <ul>
-                    <li className='signs sign-up'>
+                   <Link to='/signup' className='links'> 
+                   <li className='signs sign-up'>
                         <span className='tooltip'>برای ثبت نام در سایت کلید کنید</span>
-                        <span>ثبت نام</span>
-                    </li>
+                       <span>ثبت نام</span>
+                    </li> 
+                    </Link>
+
+                    <Link to='/signin' className='links'>
                     <li className="signs sign-in">
                         <span className='tooltip'>برای ورود به حساب کاربری خود کلید کنید</span>
                         <span>ورود</span>
                     </li>
+                    </Link>
                 </ul>
             </div> 
             </nav>
